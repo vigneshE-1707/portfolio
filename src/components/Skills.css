@@ -1,0 +1,17 @@
+.icon-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  font-size: 3rem;
+}
+
+.icon-grid i {
+  transition: transform 0.3s ease, color 0.3s ease;
+  cursor: pointer;
+}
+
+.icon-grid i:hover {
+  transform: scale(1.2);
+  filter: drop-shadow(0 0 4px rgba(0, 123, 255, 0.4));
+}
